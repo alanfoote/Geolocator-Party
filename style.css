@@ -1,9 +1,44 @@
-body {
-  padding: 0;
-  margin: 0;
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
+</style>
+
+header {
+  padding: 60px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+  font-size: 30px;
 }
 
-html, body, #map {
-height: 100%;
-width: 100%;
+
+body {
+     font-size: 100%;
+     font-family: 'Lato', sans-serif;
+     font-weight: bold;
+     color: #003c30;
+     background-color: #f7f7f7;
+     text-align: center;
+    }
+#map {
+   position: absolute;
+   align: center;
+   width: 90%;
+   height: 80%;
+   margin-left: 4%;
+   margin-right: 5%;
+   border: 5px solid #74add1;
+   margin-bottom: inherit;
 }
+h1  {
+     font-size: 52px; /*36px*/
+     font-family: 'Lato:wght@900', sans-serif;
+     color: #2c7bb6;
+    }
+
+h2 {
+     font-size: 40px;
+     font-family: 'Lato:wght@900', sans-serif;
+     color: #fdae61;
+   }
